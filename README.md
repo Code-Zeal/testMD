@@ -73,6 +73,17 @@ La carpeta "screens" se utiliza para organizar y mantener separadas las diferent
 
 Es importante tener en cuenta que la estructura y los nombres de los archivos en la carpeta "screens" pueden variar según las preferencias del equipo de desarrollo y la arquitectura del proyecto. Algunos proyectos pueden tener subcarpetas adicionales dentro de "screens" para organizar aún más las pantallas según su funcionalidad o secciones de la aplicación.
 
+**test**
+Imagina que tu aplicación es como un sofisticado reloj de pulsera, compuesto de muchas piezas pequeñas y precisas que trabajan juntas para mantener el tiempo exacto. En el mundo de la programación, cada una de estas pequeñas piezas es creada por desarrolladores y recibe el nombre de “componentes”. Para asegurarse de que cada pieza funcione perfectamente y el reloj dé la hora correcta, los creadores del reloj deben verificar cada parte individualmente y también cómo interactúan entre sí.
+
+La carpeta de pruebas es como el taller del relojero, donde se llevan a cabo estas comprobaciones. Esta carpeta contiene una serie de archivos especiales. Cada uno de estos archivos es como un conjunto de herramientas que ayudan a examinar y probar un componente específico o una funcionabilidad de la aplicación para confirmar que todo está funcionando perfectamente.
+
+Por ejemplo, si uno de los componentes es una alarma, hay un archivo de prueba que asegura que la alarma se activa a la hora que se configura. Otro archivo puede enfocarse en probar si todos los botones en la pantalla reaccionan cuando se presionan. La idea es simular situaciones reales en un entorno controlado para detectar y corregir fallas antes de que el usuario final, en este caso, el propietario del reloj, se encuentre con algún problema.
+
+Cada vez que el equipo de desarrollo crea o modifica una parte de la aplicación, los archivos de prueba automáticamente ejecutan sus comprobaciones para garantizar que todo sigue funcionando como se espera. Esto es crucial para mantener la aplicación confiable y fácil de usar, incluso mientras se le añaden nuevas funciones y mejoras.
+
+En resumen, la carpeta de pruebas es un espacio vital para asegurar que la aplicación sea como un reloj bien aceitado, donde cada “tic” es justo como se espera y todo “tac” llega a tiempo.
+
 **node_modules**
 La carpeta "node_modules" es una carpeta generada automáticamente en proyectos de desarrollo de aplicaciones JavaScript que utilizan administradores de paquetes como npm (Node Package Manager). Esta carpeta contiene las dependencias externas de tu proyecto, es decir, los paquetes y módulos de código que tu aplicación utiliza y que no han sido escritos por ti.
 
