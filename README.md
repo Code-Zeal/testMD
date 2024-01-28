@@ -4,12 +4,11 @@
 
 ![Nutriperfec Logo][image_0]
 
-## Estructura de los archivos
 
-**Package.json**
+## Package.json
 Contiene toda la información sobre las librerías que se deben instalar para que funcione la app, al ejecutar en la consola "npm install" (con nodejs instalado) automáticamente instala las dependencias que necesita, de igual forma si instalamos algo nuevo se agrega solo al package.json
 
-**eas.json**
+## eas.json
 El archivo "eas.json" es un archivo de configuración que se utiliza en proyectos con Expo. En términos simples, es como una hoja de instrucciones para la herramienta de construcción de Expo, que ayuda a generar y administrar la aplicación móvil.
 
 En este archivo, se especifican diferentes configuraciones y opciones que afectan cómo se construye y se ejecuta la aplicación en tu dispositivo o simulador. Por ejemplo, puedes definir cosas como el nombre de la aplicación, las versiones mínimas y máximas de los dispositivos que pueden ejecutarla, las configuraciones específicas para iOS y Android, y muchas otras opciones.
@@ -18,7 +17,7 @@ Básicamente, el archivo "eas.json" es una forma de personalizar y ajustar las c
 
 Es importante tener en cuenta que, aunque el archivo "eas.json" puede ser fundamental para los desarrolladores que trabajan en el proyecto, los usuarios finales de la aplicación no necesitan preocuparse por este archivo.
 
-**app.json**
+## app.json
 El archivo "app.json" es un archivo de configuración importante en un proyecto con Expo. Podrías pensar en él como un documento que contiene información sobre tu aplicación móvil.
 
 En este archivo, puedes especificar diferentes aspectos de tu aplicación, como su nombre, descripción, versión, icono y colores de la interfaz. También puedes configurar la orientación de la pantalla, definir permisos necesarios para acceder a ciertas funciones del dispositivo y establecer preferencias de accesibilidad, entre otras cosas.
@@ -29,7 +28,7 @@ En resumen, el archivo "app.json" es como una ficha de identificación de tu apl
 
 Es importante tener en cuenta que, aunque el archivo "app.json" es crucial para los desarrolladores que trabajan en el proyecto, los usuarios finales de la aplicación no necesitan preocuparse por este archivo. Solo se utiliza durante el proceso de desarrollo para configurar y ajustar la aplicación según las necesidades del proyecto.
 
-**App.js**
+## App.js
 El archivo "App.js" es uno de los archivos más importantes en un proyecto con Expo. Contiene el código fuente principal de tu aplicación móvil.
 
 En términos simples, el archivo "App.js" actúa como el punto de entrada de tu aplicación. En él, puedes escribir código para definir la estructura y el comportamiento de tu aplicación. Puedes pensar en él como el "cerebro" de la aplicación, ya que controla cómo se ve y cómo responde a las interacciones del usuario.
@@ -40,7 +39,7 @@ En resumen, el archivo "App.js" es donde se escribe el código principal de tu a
 
 Es importante tener en cuenta que, dependiendo de la estructura de tu proyecto, es posible que haya otros archivos relacionados con "App.js", como archivos de componentes adicionales, estilos o configuraciones específicas. Sin embargo, "App.js" suele ser el archivo principal y central en el desarrollo de una aplicación móvil con Expo.
 
-**Utils**
+## Utils
 En términos sencillos, los archivos en la carpeta "utils" contienen funciones, métodos o clases reutilizables que se utilizan en diferentes partes de la aplicación. Estas funciones y utilidades suelen ser pequeñas piezas de código que realizan tareas específicas y pueden ser utilizadas en múltiples lugares dentro del proyecto.
 
 Por ejemplo, puedes encontrar archivos en la carpeta "utils" que contienen funciones para formatear fechas, validar entradas de usuario, realizar cálculos matemáticos comunes, realizar solicitudes de red, manejar autenticación, entre otros.
@@ -49,7 +48,7 @@ La idea detrás de tener una carpeta "utils" es mantener un lugar centralizado p
 
 Es importante tener en cuenta que el contenido exacto de la carpeta "utils" puede variar dependiendo del proyecto y las preferencias del equipo de desarrollo. Algunos proyectos pueden tener subcarpetas adicionales dentro de "utils" para organizar aún más las funciones según su propósito o alcance.
 
-**Stack**
+## Stack
 React Navigation es una biblioteca popular utilizada en el desarrollo de aplicaciones móviles con React Native. Proporciona una forma fácil de gestionar la navegación entre diferentes pantallas de la aplicación.
 
 Dentro de la carpeta "Stack", es posible que encuentres archivos que definen las pilas de navegación, como "HomeStack.js" o "ProfileStack.js". Estos archivos contienen la configuración de las rutas y opciones de navegación para un conjunto específico de pantallas.
@@ -60,7 +59,7 @@ Estos archivos de pila suelen utilizar componentes proporcionados por React Navi
 
 En resumen, la carpeta "Stack" en un proyecto de React Navigation contiene archivos que definen las pilas de navegación, que son conjuntos de rutas y configuraciones de navegación para diferentes flujos o secciones de la aplicación. Estos archivos ayudan a organizar y gestionar la navegación entre las pantallas de la aplicación.
 
-**screens**
+## screens
 La carpeta "screens" es una convención común en proyectos de desarrollo de aplicaciones para almacenar archivos relacionados con las pantallas de la aplicación.
 
 En el desarrollo de aplicaciones, una pantalla se refiere a una interfaz de usuario visible y funcional que muestra contenido específico al usuario. Por ejemplo, una aplicación de redes sociales puede tener pantallas como "Inicio", "Perfil", "Explorar" y "Configuración".
@@ -73,7 +72,7 @@ La carpeta "screens" se utiliza para organizar y mantener separadas las diferent
 
 Es importante tener en cuenta que la estructura y los nombres de los archivos en la carpeta "screens" pueden variar según las preferencias del equipo de desarrollo y la arquitectura del proyecto. Algunos proyectos pueden tener subcarpetas adicionales dentro de "screens" para organizar aún más las pantallas según su funcionalidad o secciones de la aplicación.
 
-**test**
+## test
 Imagina que tu aplicación es como un sofisticado reloj de pulsera, compuesto de muchas piezas pequeñas y precisas que trabajan juntas para mantener el tiempo exacto. En el mundo de la programación, cada una de estas pequeñas piezas es creada por desarrolladores y recibe el nombre de “componentes”. Para asegurarse de que cada pieza funcione perfectamente y el reloj dé la hora correcta, los creadores del reloj deben verificar cada parte individualmente y también cómo interactúan entre sí.
 
 La carpeta de pruebas es como el taller del relojero, donde se llevan a cabo estas comprobaciones. Esta carpeta contiene una serie de archivos especiales. Cada uno de estos archivos es como un conjunto de herramientas que ayudan a examinar y probar un componente específico o una funcionabilidad de la aplicación para confirmar que todo está funcionando perfectamente.
@@ -84,7 +83,7 @@ Cada vez que el equipo de desarrollo crea o modifica una parte de la aplicación
 
 En resumen, la carpeta de pruebas es un espacio vital para asegurar que la aplicación sea como un reloj bien aceitado, donde cada “tic” es justo como se espera y todo “tac” llega a tiempo.
 
-**node_modules**
+## node_modules
 La carpeta "node_modules" es una carpeta generada automáticamente en proyectos de desarrollo de aplicaciones JavaScript que utilizan administradores de paquetes como npm (Node Package Manager). Esta carpeta contiene las dependencias externas de tu proyecto, es decir, los paquetes y módulos de código que tu aplicación utiliza y que no han sido escritos por ti.
 
 Cuando instalas una dependencia en tu proyecto utilizando un administrador de paquetes, como npm, estas herramientas descargan los archivos necesarios de la dependencia y los almacenan en la carpeta "node_modules". Cada paquete o módulo tiene su propia carpeta dentro de "node_modules", donde se encuentran los archivos relacionados con esa dependencia específica.
@@ -95,7 +94,7 @@ Es importante tener en cuenta que la carpeta "node_modules" no debe ser incluida
 
 En resumen, la carpeta "node_modules" es donde se almacenan las dependencias externas de tu proyecto JavaScript. Estas dependencias son descargadas e instaladas automáticamente por el administrador de paquetes y contienen el código necesario para que tu aplicación funcione correctamente.
 
-**components**
+## components
 La carpeta "components" es una convención común en proyectos de desarrollo de software para almacenar archivos relacionados con componentes reutilizables.
 
 En el contexto de la programación, los componentes son bloques de construcción modulares que encapsulan la funcionalidad y la interfaz de usuario de una parte específica de una aplicación. Estos componentes se pueden utilizar en diferentes partes de la aplicación para lograr consistencia, reutilización de código y facilitar el mantenimiento.
@@ -110,7 +109,7 @@ Es importante tener en cuenta que la estructura y los nombres de los archivos en
 
 En resumen, la carpeta "components" se utiliza para almacenar archivos que contienen componentes reutilizables en un proyecto de desarrollo de software. Estos componentes encapsulan la funcionalidad y la interfaz de usuario de partes específicas de la aplicación y se utilizan para lograr consistencia y eficiencia en el desarrollo.
 
-**assets**
+## assets
 La carpeta "assets" es una convención común en proyectos de desarrollo de software para almacenar recursos estáticos utilizados en una aplicación, como imágenes, archivos de audio, archivos de video, fuentes tipográficas, hojas de estilo CSS, archivos JSON y otros tipos de archivos multimedia.
 
 La carpeta "assets" se utiliza para organizar y almacenar estos recursos de manera estructurada y accesible dentro del proyecto. Al mantener los recursos estáticos en una carpeta separada, se facilita su gestión y referencia en el código de la aplicación.
@@ -123,7 +122,7 @@ Cuando se utiliza una biblioteca o framework específico, como React o Angular, 
 
 En resumen, la carpeta "assets" se utiliza para almacenar recursos estáticos, como imágenes, archivos de audio y otros archivos multimedia, en un proyecto de desarrollo de software. Proporciona una estructura organizada para acceder y gestionar estos recursos dentro de la aplicación.
 
-**api**
+## api
 AsyncStorage es una API proporcionada por React Native que permite almacenar datos de forma asíncrona en el dispositivo. Es común utilizar AsyncStorage para almacenar datos localmente en la aplicación, como configuraciones, preferencias del usuario o información temporal.
 
 La carpeta "api" en tu proyecto sirve como un lugar centralizado para definir las funciones que interactúan con AsyncStorage o archivos JSON para obtener información almacenada. Estas funciones pueden incluir lógica para leer los datos almacenados en AsyncStorage o cargar archivos JSON desde el sistema de archivos de la aplicación.
